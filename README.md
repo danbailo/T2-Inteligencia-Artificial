@@ -9,14 +9,13 @@ As características disponíveis são: fixed acidity, volatile acidity, citric a
 
 Inicialize os valores de θ com 0 e teste valores variados para α e quantidade de iterações (atualizações dos valores de θ) e plote os valores de J.
 
-*O código fonte do programa está disponibilizado num Jupyter Notebook num arquivo Python.*
+*O código fonte do programa está disponibilizado num arquivo Python.*
 
 ---
 ## Requisitos
 
 * `python3`
 * `pip3`
-* `texlive`
   
 ---
 ## Dependências
@@ -44,9 +43,4 @@ Para executar o programa, ainda com o terminal/prompt de comando aberto, siga os
 ---
 ## Output
 
-A saída do script será os gráficos da análise realizada que serão armazenados no diretório `imgs/`, esta análise discute sobre qual é o melhor alpha dentre os estudados, analisando a partir do erro e após isso as predições.
-
----
-### **Resultados obtidos**
-
-Foi desenvolvido um artigo para discutir sobre os resultados obtidos. Para saber mais, basta clicar [Aqui](./report/FINAL_Report.pdf) para ser redirecionado para o arquivo, ou acessar manualmente em `report/main.pdf`
+A saída do script serão os gráficos de J, as imagens serão salvas no diretório `imgs/`.
